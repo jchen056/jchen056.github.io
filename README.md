@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Hello, I am Jiale Chen and I go by **Jerry**. I am a senior at **The City College of New York**, majoring in computer science and applied mathematics. I am interested in **data science** and exploring its appplications in different fields, such as finance and sustainability. Having a child living in me, I am ebullient to explore, learn, and grow; I take every opportunity that is presented to me to develop my technical skills while exploring my interests.
+Hello, I am Jiale Chen and I go by **Jerry**. I am a senior at [**The City College of New York**](https://www.ccny.cuny.edu/), majoring in computer science and applied mathematics. I am interested in **data science** and exploring its appplications in different fields, such as finance and sustainability. Having a child living in me, I am ebullient to explore, learn, and grow; I take every opportunity that is presented to me to develop my technical skills while exploring my interests.
 
 ### Markdown
 
