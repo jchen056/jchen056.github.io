@@ -15,6 +15,8 @@ Hello, I am Jiale Chen and I go by **Jerry**. I am a senior at [**The City Colle
 
 :point_up: **Professional Development:** EverUp Micro-Credential in Data Analytics and Finance (100-hour certificateion from New York Jobs CEO Council & CUNY), CUNY Building Performance Lab Training, NielsenIQ University Program (data analytics and insight training)
 
+:rainbow: **Technical Skills:** Microsoft Word, Excel, PowerPoint, Python, R, C++, SQL, Tableau, Java, and MATLAB
+
 ### 
 
 <picture>
