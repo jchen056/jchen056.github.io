@@ -9,7 +9,10 @@ Hello, I am Jiale Chen and I go by **Jerry**. I am a senior at [**The City Colle
 
 :heavy_plus_sign: **GPA:** 3.95
 
-:trophy: **honors:** University Scholar (Four Year Scholarship), Dean’s List (Fall 2019-Present), Asian Alumni Scholarship Award, Climate Policy Fellows
+:trophy: **Honors:** University Scholar (Four Year Scholarship), Dean’s List (Fall 2019-Present), Asian Alumni Scholarship Award, Climate Policy Fellows
+
+:books: **Relevant Coursework:** Writing for Engineers, Biostatistics and Research Methods, Differential Equations, Linear Algebra, Probability and Statistics, Quantitative Economics, Discrete Mathematics, Data Structures, Algorithms, Software Design Laboratory, Introduction to Machine Learning
+
 
 
 ### 
