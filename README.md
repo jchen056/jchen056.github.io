@@ -13,7 +13,7 @@ Hello, I am Jiale Chen and I go by **Jerry**. I am a senior at [**The City Colle
 
 :books: **Relevant Coursework:** Writing for Engineers, Biostatistics and Research Methods, Differential Equations, Linear Algebra, Probability and Statistics, Quantitative Economics, Discrete Mathematics, Data Structures, Algorithms, Software Design Laboratory, Introduction to Machine Learning
 
-
+:point_up: **Professional Development:** EverUp Micro-Credential in Data Analytics and Finance (100-hour certificateion from New York Jobs CEO Council & CUNY), CUNY Building Performance Lab Training, NielsenIQ University Program (data analytics and insight training)
 
 ### 
 
