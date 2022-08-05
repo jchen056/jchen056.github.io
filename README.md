@@ -6,6 +6,7 @@ Hello, I am Jiale Chen and I go by **Jerry**. I am a senior at [**The City Colle
 
 ### Education
 :cityscape: **Degree:** Bachelor of Science from CCNY
+
 :heavy_plus_sign: **GPA:** 3.95
 ### 
 
