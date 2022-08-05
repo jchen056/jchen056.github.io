@@ -1,8 +1,8 @@
-## Welcome to Jerry's Website
+# Welcome to Jerry's Website
 
-You can use the [editor on GitHub](https://github.com/jchen056/jchen056.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Introduction
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Hello, I am Jiale Chen and I go by **Jerry**. I am a senior at **The City College of New York**, majoring in computer science and applied mathematics. I am interested in **data science** and exploring its appplications in different fields, such as finance and sustainability. Having a child living in me, I am ebullient to explore, learn, and grow; I take every opportunity that is presented to me to develop my technical skills while exploring my interests.
 
 ### Markdown
 
