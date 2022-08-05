@@ -17,7 +17,10 @@ Hello, I am Jiale Chen and I go by **Jerry**. I am a senior at [**The City Colle
 
 :rainbow: **Technical Skills:** Microsoft Word, Excel, PowerPoint, Python, R, C++, SQL, Tableau, Java, and MATLAB
 
-### 
+### Experience
+1. Customer Success Intern @ NielsenIQ: June 2022 - August 2022
+2. Summer Rich Intern @ The City College of New York: June 2022 - August 2022
+3. Research Intern @ Research Foundation of CUNY: January 2022 - June 2022
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
