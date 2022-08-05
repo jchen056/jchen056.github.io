@@ -5,9 +5,13 @@
 Hello, I am Jiale Chen and I go by **Jerry**. I am a senior at [**The City College of New York**](https://www.ccny.cuny.edu/), majoring in computer science and applied mathematics. I am interested in **data science** and exploring its appplications in different fields, such as finance and sustainability. Having a child living in me, I am ebullient to explore, learn, and grow; I take every opportunity that is presented to me to develop my technical skills while exploring my interests.
 
 ### Education
-:cityscape: **Degree:** Bachelor of Science from CCNY
+:cityscape: **Degree:** Bachelor of Science from CCNY (Expected May 2023)
 
 :heavy_plus_sign: **GPA:** 3.95
+
+:trophy: **honors:** University Scholar (Four Year Scholarship), Dean’s List (Fall 2019-Present), Asian Alumni Scholarship Award, Climate Policy Fellows
+
+
 ### 
 
 <picture>
