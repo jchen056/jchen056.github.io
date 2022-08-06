@@ -8,3 +8,17 @@ body {
   margin: 0;
   padding: 0;
 }
+
+h1 {
+  color: #FFF;
+  font-size: 2em;
+  padding-top: 100px;
+  width: 100%;
+}
+
+p {
+  color: aliceblue;
+  line-height: 1.3em;
+  text-align: left;
+  width: 100%;
+}
