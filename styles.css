@@ -1,43 +1,35 @@
 body {
-  background-color: white;
-  font-family: 'Raleway', sans-serif;
+  background-color: #FFF;
+  margin: 0 auto;
 }
 
-.navigation ul {
-  margin: 0;
-  padding: 0;
+header {
+  background-color: #466995;
+  border-bottom: 1px solid #466995;
+}
+
+ul {
+  margin: 30px auto;
+  padding: 0 20px;
   text-align: center;
 }
 
-.navigation li {
-  font-weight: 100;
-  letter-spacing: 2px;
-  padding: 20px;
+li {
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+li:hover {
+  color: #DBE9EE;
 }
 
 h1 {
-  font-size: 2em;
-  padding-top: 100px;
-  width: 100%;
-}
-
-p {
-  line-height: 1.3em;
-  text-align: left;
-  width: 100%;
-}
-
-.caption {
-  display: block;
-  font-family: 'Playfair Display', serif;
-  font-size: 14px;
-  font-style: italic;
-  line-height: 14px;
-  margin-left: 20px;
-  padding: 10px;
-  position: relative;
-  top: 80%;
-  width: 60%;
-  background-color: white;
-  color: black;
+  color: #466995;
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
 }
