@@ -24,11 +24,10 @@ ul {
 }
 
 li {
-  color: #FFF;
+  color: #333;
   font-family: 'Oswald', sans-serif;
   font-size: 16px;
   font-weight: 300;
-  text-transform: uppercase;
 }
 
 
