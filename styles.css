@@ -44,9 +44,8 @@ p {
   font-size: 18px;
 }
 
-.CNNY{
-   background-color: #9EB599;
+.edu{
+  display: inline-block;
+  width: 200px;
+  height: 300px;
 }
-
-.Newtown{
-  background-color:khaki;}
