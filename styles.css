@@ -1,3 +1,73 @@
+
+.button1{
+    background-color:white;
+    color:rgb(31, 242, 31);
+    border-color:rgb(31, 242, 31);
+    border-radius:2px;
+    cursor: pointer;
+
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+    transition:background-color 0.15s,color 0.15s;
+  }
+.button1:hover{
+    background-color:rgb(31, 242, 31);
+    color:white;
+  }
+.button1:active{
+    opacity:0.5;
+  }
+.button2{
+    background-color: rgb(237, 14, 14);
+    color:white;
+    border-color: rgb(237, 14, 14);
+    border-style: solid;
+    border-width: 1px;
+
+    border-radius: 2px;
+    cursor:pointer;
+
+    margin-right: 8px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+    transition: opacity,0.15s;
+  }
+.button2:hover{
+    opacity:0.8;
+  }
+.button2:active{
+    opacity:0.5;
+  }
+
+.button3{
+    background-color: aliceblue;
+    color: black;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+    
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 2px;
+    padding-left: 2px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: box-shadow 0.15s;
+  }
+.button3:hover{
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.15);
+  }
+
+
+
 body {
   background-color: #FFF;
   margin: 0 auto;
@@ -48,9 +118,9 @@ p {
   display: inline-block;
   width: 800px;
   height: 1000px;
+  
+  font-family: Arial;
+  font-size: 18px;
 }
 
-img {
-  width: 400px,
-  height: 300px
-}
+
