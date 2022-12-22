@@ -1,3 +1,18 @@
+.JC{
+  border-radius: 500px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.profile{
+  flex:1;
+  margin-right: 40px;
+}
+.about{
+  flex:4;
+}
 
 .button1{
     background-color:white;
@@ -88,9 +103,9 @@ header {
 
 h1 {
   color: #466995;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 32px;
-  font-weight: 300;
+  font-weight: 200;
   text-transform: uppercase;
 }
 
