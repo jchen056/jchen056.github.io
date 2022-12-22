@@ -2,59 +2,78 @@
 layout: default
 title: Education
 ---
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href="styles/education.css">
+    <title>Education</title>
+  </head>
 
-<style>
-  p{
-    font-family: Arial;
-    font-style: normal;
-    font-size: 18px;
-    line-height: 20px;
-  }
-  .intro{
-    text-align: left;
-  }
-  span{
-    cursor:pointer;
-    color:rgb(0, 34, 255);
-  }
-  span:hover{
-    text-decoration: underline;
-  }
-</style>
+  <body style="padding-left: 100px; padding-right: 100px; 
+  padding-top: 100px; padding-bottom: 100px;">
+    <h1>Education</h1>
 
-
-<h1>Education</h1>
-
-<section class="intro">
-  <p>Molded by adversity after arriving in the United States at the age of 15, 
-    I persevered and graduated from Newtown High School with an Advanced Regents Diploma with Honors and Mastery in Math and Science. 
-    As a member of CCNY’s Macaulay Honors College at CCNY, 
+    <section class="intro">
+      <p>Molded by adversity after arriving in the United States at the age of 15, 
+    I persevered and graduated from <b>Newtown High School</b> with an Advanced Regents Diploma with Honors and Mastery in Math and Science. 
+    As a member of <b>Macaulay Honors College</b> at CCNY, 
     I am currently pursuing my BSc in Computer Science and Applied Mathematics. 
     </p>
-  </section>
-
-<section class="edu">
-<img src="https://www.ccny.cuny.edu/sites/default/files/styles/large/public/2020-01/banner_hero2.jpg?itok=2nZpkNWW">
-<figcaption> <span class="CCNY">The City College of New York</span> </figcaption>
-<p>  
-  <ul>
-    <li><p>Degree: Bachelor of Science from CCNY (Expected May 2023) </p></li>
-    <li><p>GPA: 3.95</li>
-    <li><p>Honors: University Scholar (Four Year Scholarship), Dean’s List (Fall 2019-Present), Asian Alumni Scholarship Award, Climate Policy Fellows </p></li>
-    <li><p>Relevant Coursework: Writing for Engineers, Biostatistics and Research Methods, Differential Equations, Linear Algebra, Probability and Statistics, Quantitative Economics, Discrete Mathematics, Data Structures, Algorithms, Software Design Laboratory, Introduction to Machine Learning </p></li>
-    <li><p>Professional Development: EverUp Micro-Credential in Data Analytics and Finance (100-hour certificateion from New York Jobs CEO Council & CUNY), CUNY Building Performance Lab Training, NielsenIQ University Program (data analytics and insight training) </p></li>
-    <li><p>Technical Skills: Microsoft Word, Excel, PowerPoint, Python, R, C++, SQL, Tableau, Java, and MATLAB </p>
-</li>
-  </ul></p>
-</section>
-
-<section class="edu">
-<img src="https://hdc.org/wp-content/uploads/2018/07/4548355928_d31b4cd90b_b.jpg">
-<figcaption> <span class="Newtown">Newtown High School</span> </figcaption>
+    </section>
+    
+    <div class="css-grid">
+      <div class="edu">
+        <img class="ccny" src="imgs/ccny.jpeg">
+        <p class="school-name">The City College of New York</p>
+        <div class="school-details">
+        <p>  
+          <ul>
+            <li><p>
+              <b>Degree:</b>
+              Bachelor of Science from CCNY (Expected May 2023) </p></li>
+            <li><p><b>GPA:</b> 3.95</p></li>
+            <li><p><b>Honors:</b> University Scholar (Four Year Scholarship), 
+              Dean’s List (Fall 2019-Present), 
+              Asian Alumni Scholarship Award, 
+              Climate Policy Fellows </p></li>
+            <li><p><b>Relevant Coursework:</b> 
+              Writing for Engineers, 
+              Biostatistics and Research Methods, 
+              Differential Equations, Linear Algebra, 
+              Probability and Statistics, 
+              Quantitative Economics, 
+              Discrete Mathematics, 
+              Data Structures, Algorithms, 
+              Software Design Laboratory, 
+              Introduction to Machine Learning </p></li>
+            <li><p><b>Professional Development:</b>
+              EverUp Micro-Credential in Data Analytics and Finance (100-hour certificateion from New York Jobs CEO Council & CUNY), 
+              CUNY Building Performance Lab Training, NielsenIQ University Program (data analytics and insight training) </p></li>
+            <li><p><b>Technical Skills:</b>  Microsoft Word, Excel, PowerPoint, Python, R, C++, SQL, Tableau, Java, and MATLAB </p>
+        </li>
+          </ul></p>
+        </div>
+        </div>
+          
+      
   
- <p> <ul>
-    <li><p>Degree: Advanced Regents Diploma with Honors and Mastery in Math and Science</p></li>
-    <li><p>Grade: 4.0</p></li>
-    <li><p>Activities and societies:Vice President of Chinese Club | member of ARISTA | member of National Honor Society | member of Biology Club </p></li>
-</ul></p>
-</section>
+  <div class="edu">
+      <img class='Newtown' src="imgs/Newtown.jpeg">
+      <p class="school-name">Newtown High School</p>
+    
+    <div class="school-details"><p> <ul>
+      <li><p><b>Degree:</b> Advanced Regents Diploma with Honors and Mastery in Math and Science</p></li>
+      <li><p><b>Grade:</b> 4.0</p></li>
+      <li><p><b>Activities and societies:</b> President of Chinese Club | member of ARISTA | member of National Honor Society | member of Biology Club </p></li>
+  </ul></p>
+  </div>
+  </div>
+
+    </div>
+
+
+    </body>
+  </html>
+
+
+

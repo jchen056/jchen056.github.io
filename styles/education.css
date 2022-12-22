@@ -1,0 +1,42 @@
+
+p{
+  font-family: Arial;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 16px;
+}
+  
+.intro{
+  text-align: left;
+  }
+ul {
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+li {
+  font-size: 16px;
+}
+
+.school-name{
+  cursor:pointer;
+  color:rgb(0, 34, 255);
+}
+.school-name:hover{
+  text-decoration: underline;
+}
+
+
+.css-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr; 
+  column-gap:10px; 
+}
+
+.Newtown, .ccny{
+  width:100%;
+}
+
+
+
+
