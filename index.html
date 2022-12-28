@@ -3,68 +3,192 @@ layout: default
 ---
 
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jiale Chen's Profile</title>
-  <link rel="stylesheet" href="styles/bootstrap-theme.min.css">
-  <link rel="stylesheet" href="styles/index.css">
+
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
+  
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="scripts/"></script>
+  <script src="scripts/main.js"></script>
 </head>
 
 
 <body>
-  <script src="scripts/bootstrap.min.js">
-  <script src="scripts/main.js">
-   
-  <!-- <header class="navbar_container flex">
-    <div class="logo">Jiale (Jerry) Chen</div>
-    
-    <nav class="navbar">
-      <ul class="navbar_menu flex">
-        <li class="navbar_item"> 
-          <a href="#home" id="navbar_links">Home</a> </li>
-        <li class="navbar_item"> 
-          <a href="#education" id="navbar_links">Education</a> </li>
-        <li class="navbar_item"> 
-          <a href="#experience" id="navbar_links">Experience</a> </li>
-        </ul>
-    </nav>
-  </header> -->
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <img class="JC" src="imgs/JC.jpeg" alt="Jiale (Jerry) Chen"></img>
-        </div>
-      <div class="col">
-        <p style="text-align: center;">Jiale (Jerry) Chen</p>
-        <p style="text-align: center;">Aspiring Data Scientist</p> 
-        <p style="text-align: center;">Fourth-Year Macaulay Honor Student</p>
+  
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Jerry Chen</a>
       </div>
+      <ul class="nav navbar-nav">
+        <li> <a href="#home">Home</a> </li>
+        <li> <a href="#edu">Education</a> </li>
+        <li> <a href="#exp">Experience</a> </li>
+        <li> <a href="#">Contact</a> </li>
+      </ul>
+    </div>
+  </nav>
+   
+  
+
+  <div class="container">
+    <div class="row" id="home">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+        <img src="imgs/JC.jpeg" class="img-circle" style="width:80%;" alt="Jiale (Jerry) Chen">
+        <div class="caption">
+          <p style="text-align: center;">Jiale (Jerry) Chen</p>
+          <p style="text-align: center;">Aspiring Data Scientist</p> 
+          <p style="text-align: center;">Fourth-Year Macaulay Honor Student</p>
+        </div>
+      </div>
+
+        </div>
+      <div class="col-sm-8">
+        <h1>About Me</h1>
+        <p>Hello, I am <strong>Jiale Chen</strong> and I go by <b>Jerry</b>. 
+        I am a fourth-year <a href="https://macaulay.cuny.edu/" target="_blank"><b>Macaulay Honors</b></a> student at <a href="https://www.ccny.cuny.edu/" target="_blank"><strong>The City College of New York</strong></a>, 
+        majoring in applied mathematics and minoring in computer science and economics. </p>  
+        <p>I am interested in <b>data science</b> and exploring its appplications in different fields, such as finance and sustainability. 
+        Having a child living in me, I am ebullient to explore, learn, and grow; I take every opportunity that is presented to me to develop my technical skills while exploring my interests.
+  </p>
+  </div>
+      
     </div>
 
+    <div class="page-header"></div>
+    <div class="row" id="edu">
+      <h1>Education</h1>
+      <p>Molded by adversity after arriving in the United States at the age of 15, 
+        I persevered and graduated from <b>Newtown High School</b> with an Advanced Regents Diploma with Honors and Mastery in Math and Science. 
+        As a member of <b>Macaulay Honors College</b> at CCNY, 
+        I am currently pursuing my BSc in Applied Mathematics with minors in Computer Science and Economics. 
+        </p>
+        <div class="col-sm-6">
+          <div class="thumbnail">
+            <img src="imgs/ccny.jpeg" class="img-rounded" style="width:90%;" alt="CCNY">
+            <div class="caption">
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <p><span class="glyphicon glyphicon-book"></span>
+                  <b>Institution:</b> The City College of New York</p></li>
+
+                <li class="list-group-item">
+                  <p><span class="glyphicon glyphicon-certificate"></span>
+                  <b>Degree:</b> Bachelor of Science in Applied Mathematics (Expected May 2023) </p></li>
+                <li class="list-group-item">
+                  <p><span class="glyphicon glyphicon-plus"> </span><b>GPA:</b> 3.956</p></li>
+              </ul>
+        </div>
+      </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="thumbnail">
+            <img src="imgs/Newtown.jpeg" class="img-rounded" style="width:90%;" alt="Newtown High School">
+            <div class="caption">
+              <ul class="list-group">
+
+                <li class="list-group-item">
+                  <p><span class="glyphicon glyphicon-leaf"></span><b>Institution: </b>
+                    Newtown High School
+                  </p></li>
+      
+                <li class="list-group-item"><p>
+                  <span class="	glyphicon glyphicon-list-alt"></span><b>Degree:</b> Advanced Regents Diploma with Honors and Mastery in Math and Science</p></li>
+                <li class="list-group-item"><p>
+                  <span class="glyphicon glyphicon-flag"></span><b>Grade:</b> 4.0</p></li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="page-header"></div>
+    <div class="row" id="exp"> 
+      <h1>Experience</h1>
+      <p>
+        As a Chinese saying goes, "it is better to travel ten thousand miles than to read ten thousand books". 
+        Seeing the necessity of gaining experience beyond college, I have partaken in several internships to explore the applications of data science.</p>
+        
+      <table class="table table-hover table-condensed">
+        <thead>
+         <tr>
+           <th scope="col">Company name </th>
+           <th scope="col">Title</th>
+           <th scope="col">Start date </th>
+           <th scope="col">End date </th>
+        </tr>
+          
+        <tbody>
+        <tr>
+        <td>NielsenIQ</td>
+        <td>Customer Success Intern</td>
+        <td>Jun 2022</td>
+        <td>Aug 2022</td>
+      </tr>
+      <tr>
+        <td>Research Foundation of The City University of New York</td>
+        <td>Research Intern</td>
+        <td>Jan 2022</td>
+        <td>Jun 2022</td>
+      </tr>
+       <tr> 
+          <td>Center for Discovery and Innovation</td>
+          <td>Undergraduate Research Assistant</td>
+          <td>Aug 2021</td>
+          <td>May 2022</td>
+       </tr>
+      <tr>
+        <td>75F</td>
+        <td>NYC Accelerator Intern</td>
+        <td>Sep 2021</td>
+        <td>Dec 2021</td>
+      </tr>
+      <tr>
+        <td>Lupus Research Alliance</td>
+        <td>Information Technology Intern</td>
+        <td>May 2021</td>
+        <td>Dec 2021</td>
+      </tr>
+      <tr>
+        <td>NYC Department of Transportation</td>
+        <td>
+      Performance and Asset Management Intern</td>
+        <td>Jul 2021</td>
+        <td>Aug 2021</td>
+      </tr>
+      <tr>
+        <td>Project Destined</td>
+        <td>Commercial Real Estate Intern</td>
+        <td>May 2021</td>
+        <td>Aug 2021</td>
+      </tr>
+      <tbody>
+        </thead>
+        
+      </table></div>
+    <div class="page-header"></div>
     <div class="row">
-      <h1>About Me</h1>
-    <p>Hello, I am <strong>Jiale Chen</strong> and I go by <b>Jerry</b>. 
-      I am a fourth-year <a href="https://macaulay.cuny.edu/" target="_blank"><b>Macaulay Honors</b></a> student at <a href="https://www.ccny.cuny.edu/" target="_blank"><strong>The City College of New York</strong></a>, 
-      majoring in applied mathematics and minoring in computer science and economics. </p>  
-      <p>I am interested in <b>data science</b> and exploring its appplications in different fields, such as finance and sustainability. 
-      Having a child living in me, I am ebullient to explore, learn, and grow; I take every opportunity that is presented to me to develop my technical skills while exploring my interests.
-</p></div>
+      <button class="button1">Like</button>
+      <button class="button2">Dislike</button>
+      <button class="button3">Share</button></div>
+      </div>
   </div> 
- 
-
-  <button class="button1">Like</button>
-  <button class="button2">Dislike</button>
-  <button class="button3">Share</button>
-    </div>
   
   
 
   
+
 </body>
-
 </html>
 
 
