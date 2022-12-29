@@ -11,16 +11,13 @@ layout: default
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jiale Chen's Profile</title>
 
-  <link rel="stylesheet" href="styles/bootstrap.min.css">
-  
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-  <script src="scripts/"></script>
-  <script src="scripts/main.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="20">
   
   <nav class="navbar navbar-expand-md navbar-default navbar-fixed-top">
     <div class="container">
@@ -43,6 +40,7 @@ layout: default
           <li > <a href="#exp">Experience</a> </li>
           <li > <a href="#">Contact</a> </li>
         </ul>
+        <a href="Jerry Chen_Resume.pdf" class="btn btn-primary navbar-btn" role="button" target="_blank"> Resume</a>
       </div>
       
     </div>
@@ -75,7 +73,7 @@ layout: default
       
     </div>
 
-    <div class="page-header"></div>
+    
     <div class="row" id="edu">
       <h1>Education</h1>
       <p>Molded by adversity after arriving in the United States at the age of 15, 
@@ -83,6 +81,70 @@ layout: default
         As a member of <b>Macaulay Honors College</b> at CCNY, 
         I am currently pursuing my BSc in Applied Mathematics with minors in Computer Science and Economics. 
         </p>
+        <!--
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+
+          <div class="carousel-inner">
+            <div class="item">
+              <img src="imgs/ccny.jpeg" class="img-rounded" style="width:90%;" alt="CCNY">
+              <div class="caption">
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <p><span class="glyphicon glyphicon-book"></span>
+                    <b>Institution:</b> The City College of New York</p></li>
+  
+                  <li class="list-group-item">
+                    <p><span class="glyphicon glyphicon-certificate"></span>
+                    <b>Degree:</b> Bachelor of Science in Applied Mathematics (Expected May 2023) </p></li>
+                  <li class="list-group-item">
+                    <p><span class="glyphicon glyphicon-plus"> </span><b>GPA:</b> 3.956</p></li>
+                </ul>
+          </div>
+         
+            </div>
+
+            <div class="item">
+              <img src="imgs/Newtown.jpeg" class="img-rounded" style="width:90%;" alt="Newtown High School">
+            <div class="caption">
+              <ul class="list-group">
+
+                <li class="list-group-item">
+                  <p><span class="glyphicon glyphicon-leaf"></span><b>Institution: </b>
+                    Newtown High School
+                  </p></li>
+      
+                <li class="list-group-item"><p>
+                  <span class="	glyphicon glyphicon-list-alt"></span><b>Degree:</b> Advanced Regents Diploma with Honors and Mastery in Math and Science</p></li>
+                <li class="list-group-item"><p>
+                  <span class="glyphicon glyphicon-flag"></span><b>Grade:</b> 4.0</p></li>
+                
+              </ul>
+            </div>
+            </div>
+
+            <div class="item">
+              <img src="imgs/fuzhou.JPG" class="img-rounded" style="width:90%;" alt="Fuzhou Shude School">
+            </div>
+          </div>
+
+
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        -->
+        
         <div class="col-sm-6">
           <div class="thumbnail">
             <img src="imgs/ccny.jpeg" class="img-rounded" style="width:90%;" alt="CCNY">
@@ -101,7 +163,9 @@ layout: default
         </div>
       </div>
         </div>
-
+        
+        
+        
         <div class="col-sm-6">
           <div class="thumbnail">
             <img src="imgs/Newtown.jpeg" class="img-rounded" style="width:90%;" alt="Newtown High School">
@@ -122,9 +186,12 @@ layout: default
             </div>
           </div>
         </div>
+        
+
+        
     </div>
 
-    <div class="page-header"></div>
+    
     <div class="row" id="exp"> 
       <h1>Experience</h1>
       <p>
@@ -188,7 +255,49 @@ layout: default
         </thead>
         
       </table></div>
-    <div class="page-header"></div>
+
+    <div class="row">
+      <h1>Contact Me</h1>
+      <div class="col-sm-6">
+        
+        <ul>
+          <li> 
+            <a href="https://www.linkedin.com/in/jiale-jerry-chen/" class="btn btn-link" role="button" target="_blank">LinkedIn</a>
+            </li>
+          <li>
+            <a href="mailto:jchen056@citymail.cuny.edu" class="btn btn-link" role="button" target="_blank"> Email</a></li>
+                </ul>
+      </div>
+      <div class="col-sm-6">
+        <form autocomplete="on">
+          <div class="form-group">
+            <label for="fname">First Name:</label>
+            <input type="text" class="form-control" id="fname" name="fname">
+          </div>
+
+          <div class="form-group">
+            <label for="lname">Last Name:</label>
+            <input type="text" class="form-control" id="lname" name="lname">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" name="email">
+          </div>
+
+          <div class="form-group">
+            <label for="msg">Leave a message:</label>
+            <textarea class="form-control" id="msg" name="msg" rows=3></textarea>
+          </div>
+          <div class="form-group">
+            <input type="submit">
+          </div>
+        </form>
+        
+      </div>
+      
+    </div>
+
     <div class="row">
       <button class="button1">Like</button>
       <button class="button2">Dislike</button>
