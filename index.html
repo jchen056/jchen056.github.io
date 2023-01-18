@@ -12,8 +12,11 @@ layout: default
   <title>Jiale Chen's Profile</title>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles/index.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="scripts/index.js"></script>
 </head>
 
 
@@ -38,6 +41,7 @@ layout: default
           <li > <a href="#home">Home</a> </li>
           <li > <a href="#edu">Education</a> </li>
           <li > <a href="#exp">Experience</a> </li>
+          <li><a href="#fun">Fun</a></li>
           <li>  <a href="#projects">Projects</a></li>
           <li > <a href="#contact">Contact</a> </li>
         </ul>
@@ -92,15 +96,15 @@ layout: default
       
         <div class="carousel-inner">
           <div class="item active">
-            <img src="imgs/ccny.jpeg" alt="CCNY" style="object-fit: cover;object-position: center; width: 100%; height:50vh; overflow:hidden;">
+            <a href="https://www.ccny.cuny.edu/" target="_blank"><img src="imgs/ccny.jpeg" alt="CCNY" style="object-fit: cover;object-position: center; width: 100%; height:50vh; overflow:hidden;"></a>
           </div>
               
           <div class="item">
-            <img src="imgs/Newtown.jpeg" alt="Newtown High School" style="object-fit: cover;object-position: center;width: 100%; height:50vh; overflow:hidden;">
+            <a href="https://www.newtownhighschool.org/" target="_blank"><img src="imgs/Newtown.jpeg" alt="Newtown High School" style="object-fit: cover;object-position: center;width: 100%; height:50vh; overflow:hidden;"></a>
           </div>
 
           <div class="item">
-            <img src="imgs/fuzhou.JPG"  alt="Fuzhou Shude School" style="object-fit: cover;object-position: center;width: 100%; height:50vh; overflow:hidden;">
+            <a href="https://baike.baidu.com/item/%E7%A6%8F%E5%B7%9E%E6%A0%91%E5%BE%B7%E5%AD%A6%E6%A0%A1/10931982" target="_blank"><img src="imgs/fuzhou.JPG"  alt="Fuzhou Shude School" style="object-fit: cover;object-position: center;width: 100%; height:50vh; overflow:hidden;"></a>
           </div>
         </div>
       
@@ -238,7 +242,27 @@ layout: default
         </thead>
         
       </table></div>
-
+    
+      <div class="row" id="fun">
+        <h1>Fun Stuff</h1>
+        <div class="col-lg-3 col-sm-6 text-center">
+          <img src="imgs/go_city.jpeg" alt="Go City" class="img-rounded" style="object-fit: cover;object-position: center; width: 100%; height:36vh; overflow:hidden;">
+          <h6>Go City</h6>
+        </div>
+        <div class="col-lg-3 col-sm-6 text-center">
+          <img src="imgs/skydive.jpeg" alt="Adventure" class="img-rounded" style="object-fit: cover;object-position: center; width: 100%; height:36vh; overflow:hidden;">
+          <h6>Adventure</h6>
+        </div>
+        <div class="col-lg-3 col-sm-6 text-center">
+          <img src="imgs/adv.jpeg" alt="Nature" class="img-rounded" style="object-fit: cover;object-position: center; width: 100%; height:36vh; overflow:hidden;">
+          <h6>Nature</h6>
+        </div>
+        <div class="col-lg-3 col-sm-6 text-center">
+          <img src="imgs/food.jpeg" alt="Food" class="img-rounded" style="object-fit: cover;object-position: center; width: 100%; height:36vh; overflow:hidden;">
+          <h6>Food</h6>
+        </div>
+      </div>
+      
     <div class="row" id="projects">
       <h1>My Projects</h1>
     
@@ -286,12 +310,14 @@ layout: default
         
         <ul>
           <li> 
-            <a href="https://www.linkedin.com/in/jiale-jerry-chen/" class="btn btn-link" role="button" target="_blank">LinkedIn</a>
+           
+            <a href="https://www.linkedin.com/in/jiale-jerry-chen/" class="btn btn-link" role="button" target="_blank">
+              <i class="fa fa-linkedin-square LinkedIn"></i> LinkedIn</a>
             </li>
           <li>
-            <a href="mailto:jchen056@citymail.cuny.edu" class="btn btn-link" role="button" target="_blank"> Email</a></li>
+            <a href="mailto:jchen056@citymail.cuny.edu" class="btn btn-link" role="button" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a></li>
           <li>
-            <a href="https://github.com/jchen056" class="btn btn-link" role="button" target="_blank">Github</a>
+            <a href="https://github.com/jchen056" class="btn btn-link" role="button" target="_blank"><i class="fa fa-github"></i> Github</a>
           </li>
                 </ul>
       </div>
