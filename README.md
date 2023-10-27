@@ -1,7 +1,7 @@
 ### React
-A JS library for building user interfaces
-[link to React Turotial](https://reactjs.org/tutorial/tutorial.html)
-[Review JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Overview)
+A JS library for building user interfaces, a frontend JavaScript framework, created by Facebook
+* [link to React Turotial](https://reactjs.org/tutorial/tutorial.html)
+* [Review JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Overview)
 
 
 
