@@ -5,13 +5,168 @@ title: Education
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel='stylesheet' href="styles/education.css">
     <title>Education</title>
+    <script src="navbar.js" defer></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
   </head>
 
   <body style="padding-left: 100px; padding-right: 100px; 
   padding-top: 100px; padding-bottom: 100px;">
-    <h1>Education</h1>
+  <div id="navbarContainer"></div>
+  
+  <div id="edu">
+    <h1 style="text-align:center">Education</h1>
+    <div class="row" id="ed1">
+      <div class="col-sm-4">
+        <ul style="list-style-type: none; padding: 0; margin: 0;">
+          <li><a href="https://ieor.columbia.edu/business-analytics-msba"><strong>Columbia University</strong></a></li>
+          <li>Master of Science in Business Analytics</li>
+          <li>Expected Dec 2024</li>
+          <li>New York, NY</li>
+        </ul>
+      </div>
+      <div class="col-sm-8">
+        <ul>
+          <li>GPA: 3.89</li>
+          <li>Relevant Coursework: Data Analytics, Business Analytics, Marketing Analytics, Optimization</li>
+          <li>Advisor: <a href="https://www.engineering.columbia.edu/uday-menon">Uday Menon</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <div class="row" id="ed2">
+      <div class="col-sm-4">
+        <ul style="list-style-type: none; padding: 0; margin: 0;">
+          <li><a href="https://macaulay.cuny.edu/" target="_blank"><b>Macaulay Honors College</b></a> at <a href="https://www.ccny.cuny.edu/" target="_blank"><b>CCNY</b></a></li>
+          <li>BS in Applied Mathematics with minors in Computer Science and Economics</li>
+          <li>Aug 2019 - May 2023</li>
+          <li>New York, NY</li>
+        </ul>
+      </div>
+      <div class="col-sm-8">
+        <ul>
+          <li>GPA: 3.962</li>
+          <li>Relevant Coursework: Probability and Statistics, Financial Mathematics, Database Systems, Machine Learning, Data Visualization</li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <div class="row" id="ed3">
+      <div class="col-sm-4">
+        <ul style="list-style-type: none; padding: 0; margin: 0;">
+          <li><a href="https://www.newtownhighschool.org/" target="_blank"><b>Newtown High School</b></a></li>
+          <li>Advanced Regents Diploma with Honors and Mastery in Math and Science</li>
+          <li>Jan 2017 - June 2019</li>
+          <li>Queens, NY</li>
+        </ul>
+      </div>
+      <div class="col-sm-8">
+        <ul>
+          <li>GPA: 4.0</li>
+          <li>Activities and societies: Vice President of Chinese Club | member of ARISTA | member of National Honor Society | member of Biology Club </li>
+        </ul>
+      </div>
+    </div>
+    <!-- <ul>
+      <li>
+        <a href="https://ieor.columbia.edu/business-analytics-msba"><strong>Columbia University</strong></a> (Expected Dec 2024): Master of Science in Business Analytics</li>
+      <li>
+        <a href="https://macaulay.cuny.edu/" target="_blank"><b>Macaulay Honors College</b></a> at <a href="https://www.ccny.cuny.edu/" target="_blank"><b>CCNY</b></a> (Aug 2019 - May 2023): graduated summa cum laude with a 3.962 GPA and a BS in Applied Mathematics with minors in Computer Science and Economics</li>
+      <li>
+        <a href="https://www.newtownhighschool.org/" target="_blank"><b>Newtown High School</b></a> (Jan 2017 - June 2019): Advanced Regents Diploma with Honors and Mastery in Math and Science</li>
+    </ul> -->
+    
+    <!-- <p>Molded by adversity after arriving in the United States at the age of 15, 
+      I persevered and graduated from <a href="https://www.newtownhighschool.org/" target="_blank"><b>Newtown High School</b></a> 
+      with an Advanced Regents Diploma with Honors and Mastery in Math and Science. 
+      Recently, I graduated summa cum laude with a 3.96 GPA from <a href="https://macaulay.cuny.edu/" target="_blank"><b>Macaulay Honors College</b></a> at <a href="https://www.ccny.cuny.edu/" target="_blank"><b>CCNY</b></a>, 
+      with a BSc in Applied Mathematics with minors in Computer Science and Economics. 
+      </p> -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+    
+      <div class="carousel-inner">
+        <div class="item active">
+          <a href="https://www.ccny.cuny.edu/" target="_blank"><img src="imgs/ccny.jpeg" alt="CCNY" style="object-fit: cover;object-position: center; width: 100%; height:50vh; overflow:hidden;"></a>
+        </div>
+            
+        <div class="item">
+          <a href="https://www.newtownhighschool.org/" target="_blank"><img src="imgs/Newtown.jpeg" alt="Newtown High School" style="object-fit: cover;object-position: center;width: 100%; height:50vh; overflow:hidden;"></a>
+        </div>
+
+        <div class="item">
+          <a href="https://baike.baidu.com/item/%E7%A6%8F%E5%B7%9E%E6%A0%91%E5%BE%B7%E5%AD%A6%E6%A0%A1/10931982" target="_blank"><img src="imgs/fuzhou.JPG"  alt="Fuzhou Shude School" style="object-fit: cover;object-position: center;width: 100%; height:50vh; overflow:hidden;"></a>
+        </div>
+      </div>
+    
+  
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  
+    
+    <!--
+      <div class="col-sm-6">
+      <div class="thumbnail">
+        <img src="imgs/ccny.jpeg" class="img-rounded" style="width:90%;" alt="CCNY">
+        <div class="caption">
+          <ul class="list-group">
+            <li class="list-group-item">
+              <p><span class="glyphicon glyphicon-book"></span>
+              <b>Institution:</b> The City College of New York</p></li>
+
+            <li class="list-group-item">
+              <p><span class="glyphicon glyphicon-certificate"></span>
+              <b>Degree:</b> Bachelor of Science in Applied Mathematics (Expected May 2023) </p></li>
+            <li class="list-group-item">
+              <p><span class="glyphicon glyphicon-plus"> </span><b>GPA:</b> 3.956</p></li>
+          </ul>
+    </div>
+  </div>
+    </div>
+    -->
+    <!--
+      <div class="col-sm-6">
+      <div class="thumbnail">
+        <img src="imgs/Newtown.jpeg" class="img-rounded" style="width:90%;" alt="Newtown High School">
+        <div class="caption">
+          <ul class="list-group">
+
+            <li class="list-group-item">
+              <p><span class="glyphicon glyphicon-leaf"></span><b>Institution: </b>
+                Newtown High School
+              </p></li>
+  
+            <li class="list-group-item"><p>
+              <span class="	glyphicon glyphicon-list-alt"></span><b>Degree:</b> Advanced Regents Diploma with Honors and Mastery in Math and Science</p></li>
+            <li class="list-group-item"><p>
+              <span class="glyphicon glyphicon-flag"></span><b>Grade:</b> 4.0</p></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    -->
+    
+
+</div>
+    <!-- <h1>Education</h1>
     <section class="intro">
       <p>Molded by adversity after arriving in the United States at the age of 15, 
     I persevered and graduated from <b>Newtown High School</b> with an Advanced Regents Diploma with Honors and Mastery in Math and Science. 
@@ -71,7 +226,7 @@ title: Education
   </div>
 
     </div>
-
+ -->
 
     </body>
   </html>
