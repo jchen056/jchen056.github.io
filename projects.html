@@ -2,7 +2,7 @@
 <html>
   <head>
     <link rel='stylesheet' href="styles/education.css">
-    <title>About Me</title>
+    <title>Projects</title>
     <script src="navbar.js" defer></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -17,29 +17,68 @@
     <div class="row" id="projects">
       <h1 style="text-align:center">My Projects</h1>
     
-      <div class="panel-group">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">MTA, at Your Service</div>
+            <a href="https://github.com/jchen056/MTA_MTA" target="_blank">
+              <!-- style="object-fit: cover;object-position: center;width: 100%; height:36vh; overflow:hidden;" -->
+              <img src="imgs/mta.png" class="card-img-top" alt="MTA, at Your Service" style="object-fit: cover;object-position: center;width: 100%; height:36vh; overflow:hidden;"></a> 
+            <div class="panel-body">
+              <h5 class="panel-title">Data Mining, NLP, ML, Simulation, Visualization</h5>
+              <p class="panel-text"><ul>
+                <li>Extracted 123 reviews on MTA from Yelp and performed sentiment analysis and topic modeling to identify problems with MTA</li>
+                <li>Ran regression models to predict hourly ridership and dynamically priced fares to mitigate overcrowdedness during rush hours</li>
+                <li>Automated and created visualizations for 425 stations with Plotly and Matplotlib and built 5+ interactive dashboards with Streamlit
+                </li>
+              </ul></p>
+            </div>
+              <a class="btn btn-primary" href="https://github.com/jchen056/MTA_MTA">Github Link</a>
+            </div>
+        </div>
 
-        <div class="panel panel-default">
-          <a href="https://jchen056-ds-salary-main-page-1hfmmx.streamlit.app/" target="_blank">
-            <img src="imgs/DS.png" class="card-img-top" alt="Data Scientist Salary" style="object-fit: cover;object-position: center;width: 100%; height:50vh; overflow:hidden;"> </a> 
-          <div class="panel-body">
-            <h5 class="panel-title">DS Salary Checker</h5>
-            <p class="panel-text"> A web app to visualize data scientist salary using Streamlit.</p></div>
-            <a class="btn btn-primary" href="https://jchen056-ds-salary-main-page-1hfmmx.streamlit.app/">View Project</a>
-            <a class="btn btn-primary" href="https://github.com/jchen056/DS_Salary">Github Link</a>
-          </div>
+        <div class="col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">STP Analytics for Ford Ka</div>
+            <a href="https://colab.research.google.com/drive/1eF2SXVefncUzFSR7Mk5Q2LGyZzA6cCGm?usp=sharing" target="_blank">
+              <img src="imgs/ford.avif" class="card-img-top" alt="STP Analytics for Ford Ka" style="object-fit: cover;object-position: center;width: 100%; height:36vh; overflow:hidden;"> </a> 
+            <div class="panel-body">
+              <h5 class="panel-title">PCA, Clustering</h5>
+              <p class="panel-text">
+                <ul>
+                  <li>Performed factor analysis on an attitudinal survey of 250 customers about preference/perception</li>
+                  <li>Ran a cluster analysis on the resulting factors to segment customers into 4 groups</li>
+                </ul>
+              </p></div>
+              <a class="btn btn-primary" href="https://colab.research.google.com/drive/1eF2SXVefncUzFSR7Mk5Q2LGyZzA6cCGm?usp=sharing">View Project</a>
+            </div>
+        </div>
 
-        <div class="panel panel-default">
-          <a href="https://colab.research.google.com/drive/13nRqQ465EBdKxtlRlSMrqVWvcSJb_d6V?usp=sharing" target="_blank">
-            <img src="imgs/iris.png"  alt="Iris Data Set" style="object-fit: cover;object-position: center;width: 100%; height:50vh; overflow:hidden;"></a> 
-          <div class="panel-body">
-            <h3 class="panel-title">ML with Iris Dataset</h3>
-            <p class="panel-text">Apply various ML algorithms for Iris flower classification.</p>
-          </div>
+        <div class="col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">DS Salary Checker</div>
+            <a href="https://jchen056-ds-salary-main-page-1hfmmx.streamlit.app/" target="_blank">
+              <img src="imgs/DS.png" class="card-img-top" alt="Data Scientist Salary" style="object-fit: cover;object-position: center;width: 100%; height:36vh; overflow:hidden;"> </a> 
+            <div class="panel-body">
+              <h5 class="panel-title"></h5>
+              <p class="panel-text"> A web app to visualize data scientist salary using Streamlit.</p></div>
+              <a class="btn btn-primary" href="https://jchen056-ds-salary-main-page-1hfmmx.streamlit.app/">View Project</a>
+              <a class="btn btn-primary" href="https://github.com/jchen056/DS_Salary">Github Link</a>
+            </div>
+        </div>
+
+        <!-- <div class="col-md-4">
+          <div class="panel panel-default">
+            <a href="https://colab.research.google.com/drive/13nRqQ465EBdKxtlRlSMrqVWvcSJb_d6V?usp=sharing" target="_blank">
+              <img src="imgs/iris.png"  alt="Iris Data Set" style="object-fit: cover;object-position: center;width: 100%; height:36vh; overflow:hidden;"></a> 
+            <div class="panel-body">
+              <h3 class="panel-title">ML with Iris Dataset</h3>
+              <p class="panel-text">Apply various ML algorithms for Iris flower classification.</p>
+            </div>
+        </div>
         
           <a class="card-link btn btn-primary" href="https://colab.research.google.com/drive/13nRqQ465EBdKxtlRlSMrqVWvcSJb_d6V?usp=sharing" target="_blank">View Project</a>
-        
-        </div>
+        </div> -->
 
             
 
